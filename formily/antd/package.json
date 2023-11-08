@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-formily-antd",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -32,7 +32,7 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
-    "@mozyun/designable-react-settings-form": "2.0.5",
+    "@mozyun/designable-react-settings-form": "2.0.6",
     "@types/glob": "^7.2.0",
     "@types/node": "^20.9.0",
     "@types/react": "^18.0.26",
@@ -62,10 +62,10 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.17.2",
-    "@mozyun/designable-core": "2.0.5",
-    "@mozyun/designable-formily-setters": "2.0.5",
-    "@mozyun/designable-formily-transformer": "2.0.5",
-    "@mozyun/designable-react": "2.0.5",
+    "@mozyun/designable-core": "2.0.6",
+    "@mozyun/designable-formily-setters": "2.0.6",
+    "@mozyun/designable-formily-transformer": "2.0.6",
+    "@mozyun/designable-react": "2.0.6",
     "@types/node": "^20.9.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
@@ -76,5 +76,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "127d1003447492536f42697a227cd843784e7022"
+  "gitHead": "eec6a82cec37c5dbc1a4b4f9c389344a32edb91b"
 }
