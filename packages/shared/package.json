@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-shared",
-  "version": "2.0.3",
+  "version": "2.0.4-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -29,7 +29,7 @@
     "@types/node": "^20.9.0",
     "requestidlecallback": "^0.3.0"
   },
-  "gitHead": "5bb48f9c2c413fdb3bb786fad6dc476bbf5b578e",
+  "gitHead": "127d1003447492536f42697a227cd843784e7022",
   "devDependencies": {
     "@types/node": "^20.9.0"
   }
