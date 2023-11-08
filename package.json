@@ -34,10 +34,8 @@
     "version:minor": "lerna version minor",
     "version:preminor": "lerna version preminor --preid beta",
     "version:major": "lerna version major",
-    "release:github": "ts-node scripts/release release",
-    "release:force": "lerna publish from-package --yes --registry https://registry.npmjs.org/",
+    "release": "lerna publish from-package --yes --registry https://registry.npmjs.org/",
     "prelease:force": "lerna publish from-package --yes --dist-tag next --registry https://registry.npmjs.org/",
-    "release": "lerna publish",
     "prelease": "lerna publish --dist-tag next --registry https://registry.npmjs.org/",
     "lint": "eslint --ext .ts,.tsx,.js  --fix",
     "postinstall": "opencollective-postinstall"
