@@ -9,3 +9,5 @@ gh-pages
 weex
 build.ts
 docs
+examples/multi-workspace/src/main.tsx
+formily/antd/playground/service/schema.ts

@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-shared",
-  "version": "2.0.0-beta.6",
+  "version": "2.0.0-beta.15",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",

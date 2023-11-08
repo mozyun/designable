@@ -8,6 +8,7 @@ import { message } from 'antd'
 export const saveSchema = (designer: Engine) => {
   localStorage.setItem(
     'formily-schema',
+    //@ts-ignore
     JSON.stringify(transformToSchema(designer.getCurrentTree()))
   )
   message.success('Save Success')
@@ -16,6 +17,7 @@ export const saveSchema = (designer: Engine) => {
 export const loadInitialSchema = (designer: Engine) => {
   try {
     designer.setCurrentTree(
+      //@ts-ignore
       transformToTreeNode(JSON.parse(localStorage.getItem('formily-schema')))
     )
   } catch {}

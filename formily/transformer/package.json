@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-formily-transformer",
-  "version": "2.0.0-beta.6",
+  "version": "2.0.0-beta.15",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -33,8 +33,8 @@
     "@formily/json-schema": "^2.2.14"
   },
   "dependencies": {
-    "@mozyun/designable-core": "2.0.0-beta.6",
-    "@mozyun/designable-shared": "2.0.0-beta.6"
+    "@mozyun/designable-core": "2.0.0-beta.15",
+    "@mozyun/designable-shared": "2.0.0-beta.15"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }

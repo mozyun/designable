@@ -10,11 +10,11 @@
 
 'use strict'
 
-var fs = require('fs')
-var util = require('util')
-var resolve = require('path').resolve
-var findup = require('findup')
-var semverRegex = require('semver-regex')
+var fs = import('fs')
+var util = import('util')
+var resolve = import('path').resolve
+var findup = import('findup')
+var semverRegex = import('semver-regex')
 
 var config = getConfig()
 var MAX_LENGTH = config.maxSubjectLength || 100
@@ -43,7 +43,7 @@ var validateMessage = function (raw) {
 
   // resolve types from a module
   if (typeof types === 'string' && types !== '*') {
-    types = Object.keys(require(types).types)
+    types = Object.keys(import(types).types)
   }
 
   var messageWithBody = (raw || '')

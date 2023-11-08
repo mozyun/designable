@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-basic-example",
-  "version": "2.0.0-beta.6",
+  "version": "2.0.0-beta.15",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -27,11 +27,11 @@
     "@formily/react": "^2.2.16",
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
-    "@mozyun/designable-core": "2.0.0-beta.6",
-    "@mozyun/designable-react": "2.0.0-beta.6",
-    "@mozyun/designable-react-sandbox": "2.0.0-beta.6",
-    "@mozyun/designable-react-settings-form": "2.0.0-beta.6",
-    "@mozyun/designable-shared": "2.0.0-beta.6",
+    "@mozyun/designable-core": "2.0.0-beta.15",
+    "@mozyun/designable-react": "2.0.0-beta.15",
+    "@mozyun/designable-react-sandbox": "2.0.0-beta.15",
+    "@mozyun/designable-react-settings-form": "2.0.0-beta.15",
+    "@mozyun/designable-shared": "2.0.0-beta.15",
     "antd": "^5.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
