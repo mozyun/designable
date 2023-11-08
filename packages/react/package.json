@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-react",
-  "version": "2.0.5-alpha.0",
+  "version": "2.0.5",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -35,8 +35,8 @@
     "@formily/reactive-react": "^2.2.14"
   },
   "dependencies": {
-    "@mozyun/designable-core": "2.0.5-alpha.0",
-    "@mozyun/designable-shared": "2.0.5-alpha.0",
+    "@mozyun/designable-core": "2.0.5",
+    "@mozyun/designable-shared": "2.0.5",
     "@types/node": "^20.9.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
