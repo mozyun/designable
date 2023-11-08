@@ -29,7 +29,7 @@
     "@types/node": "^20.9.0",
     "requestidlecallback": "^0.3.0"
   },
-  "gitHead": "eec6a82cec37c5dbc1a4b4f9c389344a32edb91b",
+  "gitHead": "d255ef66373f4d3bcb1290995c4c2110d32248bf",
   "devDependencies": {
     "@types/node": "^20.9.0"
   }
