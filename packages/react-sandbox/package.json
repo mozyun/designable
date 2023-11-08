@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-react-sandbox",
-  "version": "2.0.4",
+  "version": "2.0.5-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -33,8 +33,8 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@mozyun/designable-react": "2.0.4",
-    "@mozyun/designable-shared": "2.0.4",
+    "@mozyun/designable-react": "2.0.5-alpha.0",
+    "@mozyun/designable-shared": "2.0.5-alpha.0",
     "@types/node": "^20.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
