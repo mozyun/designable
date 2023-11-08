@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-react",
-  "version": "2.0.0-beta.15",
+  "version": "2.0.2-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-react": "^2.2.16",
+    "@types/node": "^20.9.0",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0"
@@ -34,8 +35,9 @@
     "@formily/reactive-react": "^2.2.14"
   },
   "dependencies": {
-    "@mozyun/designable-core": "2.0.0-beta.15",
-    "@mozyun/designable-shared": "2.0.0-beta.15",
+    "@mozyun/designable-core": "2.0.2-alpha.0",
+    "@mozyun/designable-shared": "2.0.2-alpha.0",
+    "@types/node": "^20.9.0",
     "antd": "^5.1.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"
