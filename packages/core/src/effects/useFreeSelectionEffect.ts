@@ -6,7 +6,7 @@ import {
   isRectInRect,
   Point,
   Rect,
-} from '@pind/designable-shared'
+} from '@mozyun/designable-shared'
 
 export const useFreeSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(DragStopEvent, (event) => {

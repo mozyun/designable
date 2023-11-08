@@ -1,1 +1,1 @@
-# @pind/designable-core
+# @mozyun/designable-core

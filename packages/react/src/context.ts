@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import { TreeNode, Engine } from '@pind/designable-core'
+import { TreeNode, Engine } from '@mozyun/designable-core'
 import {
   IDesignerLayoutContext,
   IWorkspaceContext,

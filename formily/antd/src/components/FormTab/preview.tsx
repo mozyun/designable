@@ -2,14 +2,18 @@ import React, { Fragment, useState } from 'react'
 import { observer } from '@formily/react'
 import { Tabs } from 'antd'
 import { TabsProps, TabPaneProps } from 'antd/lib/tabs'
-import { TreeNode, createBehavior, createResource } from '@pind/designable-core'
+import {
+  TreeNode,
+  createBehavior,
+  createResource,
+} from '@mozyun/designable-core'
 import {
   useNodeIdProps,
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   DnFC,
-} from '@pind/designable-react'
+} from '@mozyun/designable-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'
 import { createVoidFieldSchema } from '../Field'

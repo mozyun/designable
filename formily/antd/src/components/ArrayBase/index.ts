@@ -1,4 +1,4 @@
-import { createBehavior } from '@pind/designable-core'
+import { createBehavior } from '@mozyun/designable-core'
 import { createFieldSchema, createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

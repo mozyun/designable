@@ -1,1 +1,1 @@
-# @pind/designable-shared
+# @mozyun/designable-shared

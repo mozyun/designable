@@ -18,18 +18,21 @@ import {
   ViewportPanel,
   SettingsPanel,
   HistoryWidget,
-} from '@pind/designable-react'
-import { SettingsForm, MonacoInput } from '@pind/designable-react-settings-form'
+} from '@mozyun/designable-react'
+import {
+  SettingsForm,
+  MonacoInput,
+} from '@mozyun/designable-react-settings-form'
 import { observer } from '@formily/react'
 import {
   createDesigner,
   createResource,
   createBehavior,
   GlobalRegistry,
-} from '@pind/designable-core'
+} from '@mozyun/designable-core'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
-import { Sandbox } from '@pind/designable-react-sandbox'
+import { Sandbox } from '@mozyun/designable-react-sandbox'
 
 const RootBehavior = createBehavior({
   name: 'Root',
@@ -312,7 +315,7 @@ const Actions = observer(() => (
         GlobalRegistry.setDesignerLanguage(e.target.value)
       }}
     />
-    <Button href="https://github.com/pindjs/designable" target="_blank">
+    <Button href="https://github.com/mozyun/designable" target="_blank">
       <GithubOutlined />
       Github
     </Button>

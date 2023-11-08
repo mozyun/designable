@@ -1,4 +1,4 @@
-import { TreeNode } from '@pind/designable-core'
+import { TreeNode } from '@mozyun/designable-core'
 import React, { createContext } from 'react'
 
 export interface INodeContext {

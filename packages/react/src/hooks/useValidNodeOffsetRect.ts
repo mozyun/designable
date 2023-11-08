@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { TreeNode, CursorStatus, CursorDragType } from '@pind/designable-core'
-import { LayoutObserver } from '@pind/designable-shared'
+import { TreeNode, CursorStatus, CursorDragType } from '@mozyun/designable-core'
+import { LayoutObserver } from '@mozyun/designable-shared'
 import { useViewport } from './useViewport'
 import { useDesigner } from './useDesigner'
 

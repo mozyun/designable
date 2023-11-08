@@ -1,4 +1,4 @@
-import { EventDriver } from '@pind/designable-shared'
+import { EventDriver } from '@mozyun/designable-shared'
 import { KeyDownEvent, KeyUpEvent } from '../events'
 
 function filter(event: KeyboardEvent) {

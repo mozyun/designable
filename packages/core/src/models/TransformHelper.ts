@@ -16,7 +16,7 @@ import {
   isLineSegment,
   Point,
   Rect,
-} from '@pind/designable-shared'
+} from '@mozyun/designable-shared'
 import { CursorDragType } from './Cursor'
 import { Operation } from './Operation'
 import { ISnapLine, SnapLine } from './SnapLine'

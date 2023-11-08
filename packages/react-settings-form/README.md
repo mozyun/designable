@@ -1,1 +1,1 @@
-# @pind/designable-react-settings-form
+# @mozyun/designable-react-settings-form

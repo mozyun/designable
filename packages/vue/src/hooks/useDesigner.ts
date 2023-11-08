@@ -1,4 +1,4 @@
-import { Engine } from '@pind/designable-core'
+import { Engine } from '@mozyun/designable-core'
 import { inject, Ref } from 'vue'
 import { DesignerEngineContext } from '../context'
 

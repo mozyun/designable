@@ -1,6 +1,6 @@
 import React from 'react'
-import { createBehavior, createResource } from '@pind/designable-core'
-import { DnFC } from '@pind/designable-react'
+import { createBehavior, createResource } from '@mozyun/designable-core'
+import { DnFC } from '@mozyun/designable-react'
 import { createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

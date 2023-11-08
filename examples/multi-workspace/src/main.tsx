@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import {
   Designer,
   IconWidget,
@@ -17,19 +16,22 @@ import {
   ViewportPanel,
   SettingsPanel,
   HistoryWidget,
-} from '@pind/designable-react'
-import { SettingsForm, MonacoInput } from '@pind/designable-react-settings-form'
+} from '@mozyun/designable-react'
+import {
+  SettingsForm,
+  MonacoInput,
+} from '@mozyun/designable-react-settings-form'
 import { observer } from '@formily/react'
 import {
   createDesigner,
   createResource,
   createBehavior,
   GlobalRegistry,
-} from '@pind/designable-core'
+} from '@mozyun/designable-core'
 import { Content } from './content'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
-import 'antd/dist/antd.less'
+import { createRoot } from 'react-dom/client'
 
 const RootBehavior = createBehavior({
   name: 'Root',
@@ -312,7 +314,7 @@ const Actions = observer(() => (
         GlobalRegistry.setDesignerLanguage(e.target.value)
       }}
     />
-    <Button href="https://github.com/pindjs/designable" target="_blank">
+    <Button href="https://github.com/mozyun/designable" target="_blank">
       <GithubOutlined />
       Github
     </Button>
@@ -322,7 +324,6 @@ const Actions = observer(() => (
 ))
 
 const engine = createDesigner()
-window.engine = engine
 const App = () => {
   return (
     <Designer engine={engine}>
@@ -403,5 +404,6 @@ const App = () => {
     </Designer>
   )
 }
-
-ReactDOM.render(<App />, document.getElementById('root'))
+const container = document.getElementById('root')
+const root = createRoot(container)
+root.render(<App />)

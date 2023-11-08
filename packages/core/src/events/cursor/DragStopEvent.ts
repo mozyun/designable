@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@pind/designable-shared'
+import { ICustomEvent } from '@mozyun/designable-shared'
 import { AbstractCursorEvent } from './AbstractCursorEvent'
 
 export class DragStopEvent extends AbstractCursorEvent implements ICustomEvent {

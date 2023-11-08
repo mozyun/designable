@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@pind/designable-shared'
+import { ICustomEvent } from '@mozyun/designable-shared'
 import { AbstractWorkspaceEvent } from './AbstractWorkspaceEvent'
 export class AddWorkspaceEvent
   extends AbstractWorkspaceEvent

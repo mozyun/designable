@@ -1,4 +1,4 @@
-import { EventDriver } from '@pind/designable-shared'
+import { EventDriver } from '@mozyun/designable-shared'
 import { Engine } from '../models/Engine'
 import { MouseClickEvent, MouseDoubleClickEvent } from '../events'
 

@@ -1,1 +1,1 @@
-# @pind/designable-react-sandbox
+# @mozyun/designable-react-sandbox

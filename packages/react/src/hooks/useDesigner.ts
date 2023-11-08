@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react'
-import { Engine } from '@pind/designable-core'
+import { Engine } from '@mozyun/designable-core'
 import { DesignerEngineContext } from '../context'
-import { isFn, globalThisPolyfill } from '@pind/designable-shared'
+import { isFn, globalThisPolyfill } from '@mozyun/designable-shared'
 export interface IEffects {
   (engine: Engine): void
 }

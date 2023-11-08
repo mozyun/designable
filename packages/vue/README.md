@@ -1,1 +1,1 @@
-# @pind/designable-react
+# @mozyun/designable-react

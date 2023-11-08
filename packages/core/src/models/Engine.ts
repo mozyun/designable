@@ -1,4 +1,4 @@
-import { Event, globalThisPolyfill, uid } from '@pind/designable-shared'
+import { Event, globalThisPolyfill, uid } from '@mozyun/designable-shared'
 import { IEngineProps } from '../types'
 import { Cursor } from './Cursor'
 import { Keyboard } from './Keyboard'

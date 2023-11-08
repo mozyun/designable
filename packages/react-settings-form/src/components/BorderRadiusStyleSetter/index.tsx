@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconWidget } from '@pind/designable-react'
+import { IconWidget } from '@mozyun/designable-react'
 import { BoxStyleSetter } from '../BoxStyleSetter'
 export interface IBorderRadiusStyleSetterProps {
   value?: string

@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useTreeNode } from '@pind/designable-vue'
+import { useTreeNode } from '@mozyun/designable-vue'
 
 const node = useTreeNode()
 </script>

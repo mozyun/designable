@@ -1,4 +1,4 @@
-import { createLocales } from '@pind/designable-core'
+import { createLocales } from '@mozyun/designable-core'
 import { Card } from './Card'
 
 export const ArrayCards = createLocales(Card, {

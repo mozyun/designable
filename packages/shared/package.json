@@ -1,5 +1,5 @@
 {
-  "name": "@pind/designable-shared",
+  "name": "@mozyun/designable-shared",
   "version": "2.0.0-beta.6",
   "license": "MIT",
   "main": "lib",
@@ -10,12 +10,12 @@
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/mozyun/designable.git"
   },
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/mozyun/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/mozyun/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd",
     "build:cjs": "tsc --project tsconfig.build.json",

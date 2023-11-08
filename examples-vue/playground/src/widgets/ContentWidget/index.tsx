@@ -1,6 +1,9 @@
 import { observer, ReactFC } from '@formily/reactive-react'
-import { useDesigner, usePrefix, useTree } from '@pind/designable-react'
-import { ComponentTreeWidget, IDesignerComponents } from '@pind/designable-vue'
+import { useDesigner, usePrefix, useTree } from '@mozyun/designable-react'
+import {
+  ComponentTreeWidget,
+  IDesignerComponents,
+} from '@mozyun/designable-vue'
 import cls from 'classnames'
 import React, { createElement, useEffect, useRef } from 'react'
 import {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { NodeActionsWidget } from '@pind/designable-react'
+import { NodeActionsWidget } from '@mozyun/designable-react'
 
 export interface ITemplateAction {
   title: React.ReactNode

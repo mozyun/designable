@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 import { useTransformHelper, useCursor, usePrefix } from '../../hooks'
 import { observer } from '@formily/reactive-react'
-import { CursorStatus } from '@pind/designable-core'
+import { CursorStatus } from '@mozyun/designable-core'
 import {
   ILineSegment,
   calcRectOfAxisLineSegment,
-} from '@pind/designable-shared'
+} from '@mozyun/designable-shared'
 
 export const SpaceBlock = observer(() => {
   const cursor = useCursor()
