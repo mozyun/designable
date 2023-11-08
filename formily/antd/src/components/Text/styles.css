@@ -1,0 +1,9 @@
+.dn-text:empty::before {
+  content: 'Please Input';
+  display: block;
+  opacity: 0.6;
+}
+.dn-text:focus {
+  padding: 4px;
+}
+/*# sourceMappingURL=styles.css.map */
