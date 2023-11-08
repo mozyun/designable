@@ -17,8 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "@mozyun/designable-*": ["./packages/*/src"],
-      "@mozyun/designable-formily-*": ["./formily/*/src"],
-      "@examples-vue/*": ["./examples-vue/*/src"]
+      "@mozyun/designable-formily-*": ["./formily/*/src"]
     },
     "lib": ["DOm", "DOM.Iterable"]
   }

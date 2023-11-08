@@ -32,7 +32,6 @@ const presets = () => {
     '@mozyun/designable-shared': 'Designable.Shared',
     '@mozyun/designable-core': 'Designable.Core',
     '@mozyun/designable-react': 'Designable.React',
-    '@mozyun/designable-vue': 'Designable.Vue',
     '@mozyun/designable-react-sandbox': 'Designable.ReactSandbox',
     '@mozyun/designable-react-settings-form': 'Designable.ReactSettingsForm',
   }
