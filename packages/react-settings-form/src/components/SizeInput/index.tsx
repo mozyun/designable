@@ -1,6 +1,6 @@
 import { InputNumber } from 'antd'
 import { createPolyInput } from '../PolyInput'
-
+import './styles.css'
 const takeNumber = (value: any) => {
   const num = String(value)
     .trim()
