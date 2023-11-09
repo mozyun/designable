@@ -26,7 +26,7 @@ export {
   FormCollapse,
   ArrayTable,
   ArrayCards,
-} from '@formily/antd-v5'
+} from '@mozyun/formily-antd'
 export { Card, Slider, Rate } from 'antd'
 
 export const Text: React.FC<{

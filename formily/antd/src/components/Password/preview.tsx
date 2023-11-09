@@ -1,5 +1,5 @@
 import React from 'react'
-import { Password as FormilyPassword } from '@formily/antd-v5'
+import { Password as FormilyPassword } from '@mozyun/formily-antd'
 import { createBehavior, createResource } from '@mozyun/designable-core'
 import { DnFC } from '@mozyun/designable-react'
 import { createFieldSchema } from '../Field'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Space as FormilySpace } from '@formily/antd-v5'
+import { Space as FormilySpace } from '@mozyun/formily-antd'
 import { createBehavior, createResource } from '@mozyun/designable-core'
 import { DnFC } from '@mozyun/designable-react'
 import { createVoidFieldSchema } from '../Field'

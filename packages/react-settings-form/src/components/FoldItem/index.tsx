@@ -1,5 +1,5 @@
 import React, { Fragment, useRef, useMemo } from 'react'
-import { FormItem, IFormItemProps } from '@formily/antd-v5'
+import { FormItem, IFormItemProps } from '@mozyun/formily-antd'
 import { useField, observer, ReactFC } from '@formily/react'
 import { observable } from '@formily/reactive'
 import { IconWidget, usePrefix } from '@mozyun/designable-react'

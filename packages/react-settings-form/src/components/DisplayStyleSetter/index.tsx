@@ -1,7 +1,7 @@
 import React from 'react'
 import { useField, Field, observer } from '@formily/react'
 import { Field as FieldType } from '@formily/core'
-import { FormItem } from '@formily/antd-v5'
+import { FormItem } from '@mozyun/formily-antd'
 import { Radio } from 'antd'
 import { usePrefix, IconWidget } from '@mozyun/designable-react'
 import { FlexStyleSetter } from '../FlexStyleSetter'

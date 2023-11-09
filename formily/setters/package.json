@@ -23,7 +23,7 @@
     "start": "webpack-dev-server --config playground/webpack.dev.ts"
   },
   "devDependencies": {
-    "@formily/antd-v5": "^1.0.1-rc.1",
+    "@mozyun/formily-antd": "^1.0.1-rc.1",
     "@formily/core": "^2.2.16",
     "@formily/react": "^2.2.16",
     "@formily/reactive": "^2.2.16",
@@ -35,7 +35,7 @@
     "react-dom": "^18.2.0"
   },
   "peerDependencies": {
-    "@formily/antd-v5": "^1.0.1-rc.1",
+    "@mozyun/formily-antd": "^1.0.1-rc.1",
     "@formily/core": "^2.2.14",
     "@formily/json-schema": "^2.2.14",
     "@formily/react": "^2.2.14",

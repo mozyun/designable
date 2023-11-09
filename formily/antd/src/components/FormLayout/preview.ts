@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormLayout as FormilyFormLayout } from '@formily/antd-v5'
+import { FormLayout as FormilyFormLayout } from '@mozyun/formily-antd'
 import { createBehavior, createResource } from '@mozyun/designable-core'
 import { DnFC } from '@mozyun/designable-react'
 import { withContainer } from '../../common/Container'

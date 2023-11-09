@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cascader as FormilyCascader } from '@formily/antd-v5'
+import { Cascader as FormilyCascader } from '@mozyun/formily-antd'
 import { createBehavior, createResource } from '@mozyun/designable-core'
 import { DnFC } from '@mozyun/designable-react'
 import { createFieldSchema } from '../Field'

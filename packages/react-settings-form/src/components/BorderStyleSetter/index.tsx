@@ -1,7 +1,7 @@
 import React, { Fragment, useMemo } from 'react'
 import { usePrefix } from '@mozyun/designable-react'
 import { camelCase } from '@formily/shared'
-import { Select } from '@formily/antd-v5'
+import { Select } from '@mozyun/formily-antd'
 import { observable } from '@formily/reactive'
 import { Field as FieldType } from '@formily/core'
 import { useField, Field, observer } from '@formily/react'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Radio as FormilyRadio } from '@formily/antd-v5'
+import { Radio as FormilyRadio } from '@mozyun/formily-antd'
 import { createBehavior, createResource } from '@mozyun/designable-core'
 import { DnFC } from '@mozyun/designable-react'
 import { createFieldSchema } from '../Field'

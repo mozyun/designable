@@ -8,7 +8,7 @@ import {
   useNodeIdProps,
   DnFC,
 } from '@mozyun/designable-react'
-import { ArrayBase } from '@formily/antd-v5'
+import { ArrayBase } from '@mozyun/formily-antd'
 import { observer } from '@formily/react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'

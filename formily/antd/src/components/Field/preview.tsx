@@ -10,7 +10,7 @@ import {
   ISchema,
   Schema,
 } from '@formily/react'
-import { FormItem } from '@formily/antd-v5'
+import { FormItem } from '@mozyun/formily-antd'
 import { each, reduce } from '@formily/shared'
 import { createBehavior } from '@mozyun/designable-core'
 import {

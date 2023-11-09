@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { createForm } from '@formily/core'
-import { Form } from '@formily/antd-v5'
+import { Form } from '@mozyun/formily-antd'
 import { observer } from '@formily/react'
 import { requestIdle, cancelIdle } from '@mozyun/designable-shared'
 import {
