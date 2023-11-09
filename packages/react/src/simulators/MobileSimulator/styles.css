@@ -1,0 +1,25 @@
+.dn-mobile-simulator {
+  position: relative;
+  min-height: 100px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--dn-mobile-simulator-bg-color);
+}
+.dn-mobile-simulator-content {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  overflow: overlay;
+}
+.dn-mobile-simulator-body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.dn-mobile-simulator-body-content {
+  background-color: var(--dn-mobile-simulator-body-bg-color);
+  border: 3px solid var(--dn-mobile-simulator-border-color);
+}
+/*# sourceMappingURL=styles.css.map */

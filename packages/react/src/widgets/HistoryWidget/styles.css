@@ -1,0 +1,19 @@
+.dn-history-item {
+  display: flex;
+  justify-content: space-between;
+  min-height: 32px;
+  padding: 0 10px;
+  align-items: center;
+  cursor: pointer;
+  color: var(--dn-outline-tree-node-header-color);
+}
+.dn-history-item-timestamp {
+  font-size: 10px;
+}
+.dn-history-item:hover {
+  background-color: var(--dn-panel-active-bg-color);
+}
+.dn-history-item.active {
+  background-color: var(--dn-panel-active-bg-color);
+}
+/*# sourceMappingURL=styles.css.map */

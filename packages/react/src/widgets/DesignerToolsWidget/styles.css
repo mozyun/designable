@@ -1,0 +1,24 @@
+.dn-designer-tools {
+  display: flex;
+  align-items: center;
+}
+.dn-designer-tools .ant-input-number {
+  font-size: 12px !important;
+  background: var(--dn-toolbar-input-bg-color) !important;
+  border-color: var(--dn-toolbar-input-border-color) !important;
+  color: var(--dn-toolbar-input-color) !important;
+}
+.dn-designer-tools .ant-input-number .ant-input-number-handler-wrap,
+.dn-designer-tools .ant-input-number .ant-input-number-handler {
+  background: var(--dn-toolbar-input-handler-bg-color) !important;
+  border-color: var(--dn-toolbar-input-border-color) !important;
+  color: var(--dn-toolbar-input-color) !important;
+}
+.dn-designer-tools .ant-input-number .ant-input-number-handler-down-inner,
+.dn-designer-tools .ant-input-number .ant-input-number-handler-up-inner {
+  color: var(--dn-toolbar-input-color) !important;
+}
+.dn-designer-tools .ant-input-number:hover {
+  border-color: var(--dn-toolbar-input-hover-border-color) !important;
+}
+/*# sourceMappingURL=styles.css.map */

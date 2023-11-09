@@ -1,0 +1,47 @@
+.dn-responsive-simulator {
+  background-color: var(--dn-responsive-simulator-bg-color);
+}
+.dn-resize-handle {
+  position: absolute;
+  transition: 0.2s all ease-in-out;
+  box-sizing: border-box;
+  user-select: none;
+  bottom: 0;
+  z-index: 10;
+  background: var(--dn-resize-handle-bg-color);
+  color: var(--dn-resize-handle-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dn-resize-handle-RESIZE_WIDTH {
+  top: 0;
+  bottom: 15px;
+  cursor: ew-resize;
+}
+.dn-resize-handle-RESIZE_WIDTH svg {
+  transform-origin: center;
+  transform: rotate(-90deg);
+}
+.dn-resize-handle-RESIZE_HEIGHT {
+  left: 0;
+  right: 15px;
+  cursor: ns-resize;
+}
+.dn-resize-handle-RESIZE {
+  cursor: nwse-resize;
+}
+.dn-resize-handle-RESIZE_HEIGHT,
+.dn-resize-handle-RESIZE {
+  height: 15px;
+}
+.dn-resize-handle-RESIZE_WIDTH,
+.dn-resize-handle-RESIZE {
+  right: 0;
+  width: 15px;
+}
+.dn-resize-handle:hover {
+  background: var(--dn-resize-handle-hover-bg-color);
+  color: var(--dn-resize-handle-hover-color);
+}
+/*# sourceMappingURL=styles.css.map */

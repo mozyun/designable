@@ -1,0 +1,14 @@
+.dn-node-path {
+  padding: 4px 10px !important;
+  border-bottom: 1px solid var(--dn-panel-border-color);
+}
+.dn-node-path .dn-icon {
+  font-size: 11px;
+}
+.dn-node-path .ant-breadcrumb-separator {
+  margin: 0 4px !important;
+}
+.dn-node-path a {
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,151 @@
+.dn-outline-tree-container {
+  position: relative;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--dn-outline-tree-bg-color);
+}
+.dn-outline-tree-header {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--dn-outline-tree-header-border-color);
+  color: var(--dn-outline-tree-color);
+}
+.dn-outline-tree-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.dn-outline-tree-close {
+  display: flex;
+  align-items: center;
+  transform: scale(1.6);
+  cursor: pointer;
+}
+.dn-outline-tree-content {
+  position: relative;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+  overflow: overlay;
+}
+.dn-outline-tree-aux {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dn-outline-tree-insertion {
+  background-color: var(--dn-outline-tree-insertion-bg-color);
+}
+.dn-outline-tree-node {
+  position: relative;
+  user-select: none;
+  width: fit-content;
+  min-width: 100%;
+}
+.dn-outline-tree-node.expanded > .dn-outline-tree-node-header .dn-outline-tree-node-expand {
+  transform: rotate(0);
+}
+.dn-outline-tree-node.expanded > .dn-outline-tree-node-children {
+  display: block;
+}
+.dn-outline-tree-node.selected > .dn-outline-tree-node-header {
+  background-color: var(--dn-panel-active-bg-color);
+}
+.dn-outline-tree-node.selected > .dn-outline-tree-node-header .dn-outline-tree-node-header-head {
+  background-color: var(--dn-panel-active-bg-color);
+}
+.dn-outline-tree-node.droppable > .dn-outline-tree-node-header .dn-outline-tree-node-header-content .dn-outline-tree-node-header-base > .dn-outline-tree-node-icon {
+  transform: scale(1.2);
+}
+.dn-outline-tree-node-hidden-icon:not(.hidden) {
+  display: none;
+}
+.dn-outline-tree-node-header {
+  display: flex;
+  min-height: 32px;
+  width: fit-content;
+  min-width: 100%;
+  align-items: center;
+  color: var(--dn-outline-tree-node-header-color);
+  position: relative;
+  padding-left: 8px;
+}
+.dn-outline-tree-node-header:hover .dn-outline-tree-node-header-content {
+  color: var(--dn-outline-tree-node-hover-color);
+}
+.dn-outline-tree-node-header:hover .dn-outline-tree-node-hidden-icon {
+  display: block;
+}
+.dn-outline-tree-node-header-head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  pointer-events: none;
+}
+.dn-outline-tree-node-header-content {
+  display: flex;
+  align-items: center;
+  transition: all 0.15s ease-in;
+  transform-origin: left;
+  width: fit-content;
+  min-width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.dn-outline-tree-node-header-base {
+  display: flex;
+  align-items: center;
+}
+.dn-outline-tree-node-header-actions {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dn-outline-tree-node-expand {
+  display: flex;
+  align-items: center;
+  transition: all 0.15s ease-out;
+  transform: rotate(-90deg);
+  margin-right: 3px;
+  width: 12px;
+}
+.dn-outline-tree-node-icon {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.dn-outline-tree-node-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 100px;
+}
+.dn-outline-tree-node-actions {
+  font-size: 12px;
+  flex-grow: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dn-outline-tree-node-children {
+  padding-left: 16px;
+  display: none;
+  width: fit-content;
+  min-width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,12 @@
+.dn-display-style-setter-radio {
+  display: flex !important;
+  width: 100%;
+}
+.dn-display-style-setter-radio .ant-radio-button-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+/*# sourceMappingURL=styles.css.map */
