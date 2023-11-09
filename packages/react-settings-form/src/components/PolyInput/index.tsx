@@ -102,6 +102,7 @@ export function createPolyInput(polyTypes: PolyTypes = []): React.FC<IInput> {
             })}
           </div>
         )}
+
         <Button
           className={prefix + '-controller'}
           style={{

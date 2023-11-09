@@ -40,6 +40,7 @@ export const SettingsForm: React.FC<ISettingFormProps> = observer(
       node.designerProps?.propsSchema &&
       selected.length === 1
     )
+
     const form = useMemo(() => {
       return createForm({
         initialValues: node?.designerProps?.defaultProps,

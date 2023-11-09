@@ -44,7 +44,8 @@
     "react-error-boundary": "^3.1.4",
     "ts-loader": "^7.0.5",
     "typescript": "^4.9.5",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "antd-style": "^3.5.2"
   },
   "peerDependencies": {
     "@formily/core": "^2.2.14",

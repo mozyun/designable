@@ -106,12 +106,14 @@ export const BorderStyleSetter: React.FC<IBorderStyleSetterProps> = observer(
                       reactions={createReaction(position)}
                       component={[Select, { placeholder: 'Please Select' }]}
                     />
+
                     <Field
                       name={createBorderProp(position, 'width')}
                       basePath={field.address.parent()}
                       reactions={createReaction(position)}
                       component={[SizeInput, { exclude: ['auto'] }]}
                     />
+
                     <Field
                       name={createBorderProp(position, 'color')}
                       basePath={field.address.parent()}

@@ -36,6 +36,7 @@ export const FlexStyleSetter: React.FC<IFlexStyleSetterProps> = observer(
             decorator={[InputItems.Item]}
             component={[Radio.Group, { optionType: 'button' }]}
           />
+
           <Field
             name="flexWrap"
             basePath={field.address.parent()}
@@ -55,6 +56,7 @@ export const FlexStyleSetter: React.FC<IFlexStyleSetterProps> = observer(
             decorator={[InputItems.Item]}
             component={[Radio.Group, { optionType: 'button' }]}
           />
+
           <Field
             name="alignContent"
             basePath={field.address.parent()}
@@ -90,6 +92,7 @@ export const FlexStyleSetter: React.FC<IFlexStyleSetterProps> = observer(
             decorator={[InputItems.Item]}
             component={[Radio.Group, { optionType: 'button' }]}
           />
+
           <Field
             name="justifyContent"
             basePath={field.address.parent()}
@@ -127,6 +130,7 @@ export const FlexStyleSetter: React.FC<IFlexStyleSetterProps> = observer(
             decorator={[InputItems.Item]}
             component={[Radio.Group, { optionType: 'button' }]}
           />
+
           <Field
             name="alignItems"
             basePath={field.address.parent()}

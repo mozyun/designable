@@ -52,6 +52,7 @@ const Item: ReactFC<IInputItemProps> = (props) => {
           <IconWidget infer={props.icon} size={16} />
         </div>
       )}
+
       {props.title && <div className={prefix + '-title'}>{props.title}</div>}
       <div className={prefix + '-controller'}>{props.children}</div>
     </div>

@@ -43,7 +43,8 @@
     "dayjs": "^1.11.7",
     "react": "^18.0.0",
     "react-dom": "^18.2.0",
-    "typescript-plugin-css-modules": "^5.0.2"
+    "typescript-plugin-css-modules": "^5.0.2",
+    "antd-style": "^3.5.2"
   },
   "dependencies": {
     "@babel/parser": "^7.20.7",
