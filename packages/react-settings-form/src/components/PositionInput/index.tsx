@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { usePrefix } from '@mozyun/designable-react'
 import cls from 'classnames'
-import './styles.less'
 
 export interface IPositionInputProps {
   className?: string

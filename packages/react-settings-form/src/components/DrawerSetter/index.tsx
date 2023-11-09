@@ -5,7 +5,6 @@ import { FormLayout } from '@mozyun/formily-antd'
 import { IconWidget, usePrefix, useTreeNode } from '@mozyun/designable-react'
 import { Button, ButtonProps } from 'antd'
 import cls from 'classnames'
-import './styles.less'
 
 export interface IDrawerSetterProps {
   text: React.ReactNode
