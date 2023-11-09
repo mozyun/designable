@@ -4,25 +4,19 @@
   "devEngines": {
     "node": "14.x"
   },
-  "workspaces": [
-    "packages/*",
-    "formily/*",
-    "examples/*"
-  ],
   "resolutions": {
     "@formily/react": "^2.2.14"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "build": "rimraf -rf packages/*/{lib,esm} && lerna run build",
     "build:docs": "dumi build",
     "start": "dumi dev",
     "start:playground": "npm run start:basic",
-    "start:basic": "yarn workspace @mozyun/designable-basic-example start",
-    "start:sandbox": "yarn workspace @mozyun/designable-sandbox-example start",
-    "start:multi-workspace": "yarn workspace @mozyun/designable-multi-workspace-example start",
-    "start:sandbox-multi-workspace": "yarn workspace @mozyun/designable-sandbox-multi-workspace-example start",
+    "start:basic": "lerna run --scope='@mozyun/designable-basic-example' start",
+    "start:sandbox": "lerna run --scope='@mozyun/designable-sandbox-example' start",
+    "start:multi-workspace": "lerna run --scope='@mozyun/designable-multi-workspace-example' start",
+    "start:sandbox-multi-workspace": "lerna run --scope='@mozyun/designable-sandbox-multi-workspace-example' start",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "test:prod": "jest --coverage --silent",
@@ -88,7 +82,7 @@
     "jest-localstorage-mock": "^2.4.25",
     "jest-styled-components": "7.1.1",
     "jest-watch-lerna-packages": "^1.1.0",
-    "lerna": "^6.3.0",
+    "lerna": "^7.4.2",
     "less": "^4.1.3",
     "less-loader": "^11.1.0",
     "less-plugin-npm-import": "^2.1.0",

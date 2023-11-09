@@ -1,8 +1,6 @@
 {
   "version": "2.0.9",
-  "npmClient": "yarn",
-  "useWorkspaces": true,
-  "npmClientArgs": ["--ignore-engines"],
+  "npmClient": "pnpm",
   "command": {
     "version": {
       "forcePublish": true,
