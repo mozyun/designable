@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-core",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -34,7 +34,7 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "@mozyun/designable-shared": "2.0.7",
+    "@mozyun/designable-shared": "2.0.8",
     "@types/node": "^20.9.0"
   },
   "publishConfig": {
