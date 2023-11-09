@@ -36,6 +36,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: [
+      {
+        find: '@mozyun/designable-formily-antd',
+        replacement: resolve(__dirname, '../src'),
+      },
       { find: /^~/, replacement: '' },
       { find: '@', replacement: resolve(__dirname, 'src') },
       ...getWorkspaceAlias(),
