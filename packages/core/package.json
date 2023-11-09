@@ -23,16 +23,16 @@
     "build:umd": "rollup --config --bundleConfigAsCjs"
   },
   "devDependencies": {
-    "@formily/json-schema": "^2.2.16",
-    "@formily/path": "^2.2.16",
+    "@formily/json-schema": "^2.3.0",
+    "@formily/path": "^2.3.0",
     "@types/node": "^20.9.0"
   },
   "peerDependencies": {
-    "@formily/json-schema": "^2.2.14",
-    "@formily/path": "^2.2.14"
+    "@formily/json-schema": "^2.3.0",
+    "@formily/path": "^2.3.0"
   },
   "dependencies": {
-    "@formily/reactive": "^2.2.16",
+    "@formily/reactive": "^2.3.0",
     "@juggle/resize-observer": "^3.4.0",
     "@mozyun/designable-shared": "2.0.9",
     "@types/node": "^20.9.0"

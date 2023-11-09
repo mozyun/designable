@@ -23,11 +23,11 @@
     "start": "webpack-dev-server --config playground/webpack.dev.ts"
   },
   "devDependencies": {
-    "@formily/core": "^2.2.16",
-    "@formily/react": "^2.2.16",
-    "@formily/reactive": "^2.2.16",
-    "@formily/reactive-react": "^2.2.16",
-    "@formily/shared": "^2.2.16",
+    "@formily/core": "^2.3.0",
+    "@formily/react": "^2.3.0",
+    "@formily/reactive": "^2.3.0",
+    "@formily/reactive-react": "^2.3.0",
+    "@formily/shared": "^2.3.0",
     "@mozyun/formily-antd": "^1.1.8-alpha.12",
     "@types/node": "^20.9.0",
     "antd": "^5.1.2",
@@ -35,12 +35,12 @@
     "react-dom": "^18.2.0"
   },
   "peerDependencies": {
-    "@formily/core": "^2.2.14",
-    "@formily/json-schema": "^2.2.14",
-    "@formily/react": "^2.2.14",
-    "@formily/reactive": "^2.2.14",
-    "@formily/reactive-react": "^2.2.14",
-    "@formily/shared": "^2.2.14",
+    "@formily/core": "^2.3.0",
+    "@formily/json-schema": "^2.3.0",
+    "@formily/react": "^2.3.0",
+    "@formily/reactive": "^2.3.0",
+    "@formily/reactive-react": "^2.3.0",
+    "@formily/shared": "^2.3.0",
     "@mozyun/formily-antd": "^1.1.8-alpha.12",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
@@ -50,7 +50,7 @@
     "react-is": "^18.0.0"
   },
   "dependencies": {
-    "@formily/json-schema": "^2.2.16",
+    "@formily/json-schema": "^2.3.0",
     "@mozyun/designable-core": "2.0.9",
     "@mozyun/designable-formily-transformer": "2.0.9",
     "@mozyun/designable-react": "2.0.9",

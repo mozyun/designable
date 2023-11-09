@@ -5,7 +5,7 @@
     "node": "14.x"
   },
   "resolutions": {
-    "@formily/react": "^2.2.14"
+    "@formily/react": "^2.3.0"
   },
   "scripts": {
     "clean": "lerna clean",

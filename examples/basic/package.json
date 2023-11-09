@@ -23,10 +23,10 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "@formily/core": "^2.2.16",
-    "@formily/react": "^2.2.16",
-    "@formily/reactive": "^2.2.16",
-    "@formily/reactive-react": "^2.2.16",
+    "@formily/core": "^2.3.0",
+    "@formily/react": "^2.3.0",
+    "@formily/reactive": "^2.3.0",
+    "@formily/reactive-react": "^2.3.0",
     "@mozyun/designable-core": "2.0.9",
     "@mozyun/designable-react": "2.0.9",
     "@mozyun/designable-react-sandbox": "2.0.9",
