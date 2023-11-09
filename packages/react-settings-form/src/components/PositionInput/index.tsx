@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { usePrefix } from '@mozyun/designable-react'
 import cls from 'classnames'
+import useStyles from '../FoldItem/styles.style'
 
 export interface IPositionInputProps {
   className?: string
@@ -24,8 +25,9 @@ export const PositionInput: React.FC<IPositionInputProps> = (props) => {
       props.onChange?.(type)
     },
   })
+  const { styles } = useStyles()
   return (
-    <div className={cls(prefix, props.className)} style={props.style}>
+    <div className={cls(prefix, props.className, styles)} style={props.style}>
       <div className={prefix + '-row'}>
         <div {...createCellProps('top')}>┳</div>
       </div>

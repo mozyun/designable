@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import { Button } from 'antd'
 import { usePrefix, IconWidget } from '@mozyun/designable-react'
 import cls from 'classnames'
+import useStyles from '../FoldItem/styles.style'
 
 export interface IInput {
   style?: React.CSSProperties
@@ -85,9 +86,9 @@ export function createPolyInput(polyTypes: PolyTypes = []): React.FC<IInput> {
     const transformOnChangeValue = (value: any, type: IPolyType) => {
       return type?.toChangeValue ? type?.toChangeValue(value) : value
     }
-
+    const { styles } = useStyles()
     return (
-      <div className={cls(prefix, className)} style={style}>
+      <div className={cls(prefix, className, styles)} style={style}>
         {component && (
           <div className={prefix + '-content'}>
             {React.createElement(component, {

@@ -3,6 +3,7 @@ import cls from 'classnames'
 import React from 'react'
 import { Layout } from '../containers'
 import { usePosition, usePrefix } from '../hooks'
+import './styles.less'
 export interface IStudioPanelProps {
   style?: React.CSSProperties
   className?: string

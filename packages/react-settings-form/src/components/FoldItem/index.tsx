@@ -4,9 +4,9 @@ import { useField, observer, ReactFC } from '@formily/react'
 import { observable } from '@formily/reactive'
 import { IconWidget, usePrefix } from '@mozyun/designable-react'
 import cls from 'classnames'
+import useStyles from './styles.style'
 
 const ExpandedMap = new Map<string, boolean>()
-
 const InternalFoldItem: ReactFC<IFormItemProps> & {
   Base?: React.FC
   Extra?: React.FC
@@ -29,8 +29,9 @@ const InternalFoldItem: ReactFC<IFormItemProps> & {
       }
     }
   })
+  const { styles } = useStyles()
   return (
-    <div className={cls(prefix, className)}>
+    <div className={cls(prefix, className, styles)}>
       <div
         className={prefix + '-base'}
         onClick={() => {
