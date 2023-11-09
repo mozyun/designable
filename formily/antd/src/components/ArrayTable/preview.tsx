@@ -24,7 +24,7 @@ import {
 } from '../../shared'
 import { useDropTemplate } from '../../hooks'
 import { createArrayBehavior } from '../ArrayBase'
-import './styles.css'
+import './styles.less'
 import { createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'
