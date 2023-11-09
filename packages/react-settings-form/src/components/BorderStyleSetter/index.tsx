@@ -10,7 +10,7 @@ import { ColorInput } from '../ColorInput'
 import { SizeInput } from '../SizeInput'
 import { PositionInput } from '../PositionInput'
 import cls from 'classnames'
-import useStyles from '../FoldItem/styles.style'
+import './styles.less'
 
 const Positions = ['center', 'top', 'right', 'bottom', 'left']
 
@@ -82,11 +82,11 @@ export const BorderStyleSetter: React.FC<IBorderStyleSetterProps> = observer(
         }
       }
     }
-    const { styles } = useStyles()
+
     return (
       <FoldItem label={field.title}>
         <FoldItem.Extra>
-          <div className={cls(prefix, className, styles)} style={style}>
+          <div className={cls(prefix, className)} style={style}>
             <div className={prefix + '-position'}>
               <PositionInput
                 value={currentPosition.value}
@@ -106,14 +106,12 @@ export const BorderStyleSetter: React.FC<IBorderStyleSetterProps> = observer(
                       reactions={createReaction(position)}
                       component={[Select, { placeholder: 'Please Select' }]}
                     />
-
                     <Field
                       name={createBorderProp(position, 'width')}
                       basePath={field.address.parent()}
                       reactions={createReaction(position)}
                       component={[SizeInput, { exclude: ['auto'] }]}
                     />
-
                     <Field
                       name={createBorderProp(position, 'color')}
                       basePath={field.address.parent()}

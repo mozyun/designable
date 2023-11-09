@@ -12,6 +12,7 @@ import { parseExpression, parse } from '@babel/parser'
 import { globalThisPolyfill, uid } from '@mozyun/designable-shared'
 import { format } from './format'
 import cls from 'classnames'
+import './styles.less'
 import './config'
 import { initMonaco } from './config'
 

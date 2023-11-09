@@ -41,7 +41,7 @@ import {
   ValueInput,
 } from './components'
 
-export const SchemaField: any = createSchemaField({
+export const SchemaField = createSchemaField({
   components: {
     FormItem,
     CollapseItem,

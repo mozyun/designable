@@ -2,6 +2,7 @@ import { ReactFC } from '@formily/reactive-react'
 import { IconWidget, usePrefix } from '@mozyun/designable-react'
 import cls from 'classnames'
 import React, { useContext } from 'react'
+import './styles.less'
 
 export interface IInputItemsContext {
   width?: string | number
@@ -51,7 +52,6 @@ const Item: ReactFC<IInputItemProps> = (props) => {
           <IconWidget infer={props.icon} size={16} />
         </div>
       )}
-
       {props.title && <div className={prefix + '-title'}>{props.title}</div>}
       <div className={prefix + '-controller'}>{props.children}</div>
     </div>

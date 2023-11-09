@@ -18,6 +18,7 @@ import { SettingsFormContext } from './shared/context'
 import { useLocales, useSnapshot } from './effects'
 import { Empty } from 'antd'
 import cls from 'classnames'
+import './styles.less'
 
 const GlobalState = {
   idleRequest: 0,
@@ -39,7 +40,6 @@ export const SettingsForm: React.FC<ISettingFormProps> = observer(
       node.designerProps?.propsSchema &&
       selected.length === 1
     )
-
     const form = useMemo(() => {
       return createForm({
         initialValues: node?.designerProps?.defaultProps,
