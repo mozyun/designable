@@ -14,6 +14,7 @@
     "start": "dumi dev",
     "start:playground": "npm run start:basic",
     "start:basic": "lerna run --scope='@mozyun/designable-basic-example' start",
+    "start:formily-antd": "lerna run --scope='@mozyun/designable-formily-antd' start",
     "start:sandbox": "lerna run --scope='@mozyun/designable-sandbox-example' start",
     "start:multi-workspace": "lerna run --scope='@mozyun/designable-multi-workspace-example' start",
     "start:sandbox-multi-workspace": "lerna run --scope='@mozyun/designable-sandbox-multi-workspace-example' start",
