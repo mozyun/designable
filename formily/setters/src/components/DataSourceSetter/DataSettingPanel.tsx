@@ -75,7 +75,7 @@ export const DataSettingPanel: React.FC<IDataSettingPanelProps> = observer(
                     state.value.push({})
                   })
                 }}
-                icon={<PlusOutlined />}
+                icon={<PlusOutlined rev />}
               >
                 <TextWidget token="SettingComponents.DataSourceSetter.addKeyValuePair" />
               </Button>
