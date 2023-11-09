@@ -7,6 +7,11 @@
   "resolutions": {
     "@formily/react": "^2.3.0"
   },
+  "workspaces": [
+    "packages/*",
+    "examples/*",
+    "formily/*"
+  ],
   "scripts": {
     "clean": "lerna clean",
     "build": "rimraf -rf packages/*/{lib,esm} && lerna run build",
