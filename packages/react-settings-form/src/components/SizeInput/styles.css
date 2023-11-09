@@ -1,0 +1,28 @@
+/* 如果需要引用变量，需要手动替换为实际的数值 */
+/* 例如，@border-color-base 需要替换为实际的颜色数值 */
+/* 引入antd的默认主题 */
+/* @import 'antd/lib/style/themes/default.less'; */
+/* 根据实际的antd前缀替换@{ant-prefix} */
+.dn-size-input {
+  display: flex;
+  width: 100%;
+}
+/* 假设@{ant-prefix}的值为ant */
+.dn-size-input .ant-input-number {
+  flex-grow: 2;
+  margin-right: 2px;
+}
+.dn-size-input-unit {
+  /* 假设@border-color-base的值为实际颜色数值 */
+  border: 1px solid #000;
+  /* 替换为实际的颜色数值 */
+  border-radius: 2px;
+  cursor: pointer;
+  height: 32px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
+}
+/*# sourceMappingURL=styles.less.map */
