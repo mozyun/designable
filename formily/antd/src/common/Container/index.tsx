@@ -1,7 +1,6 @@
 import React from 'react'
 import { observer, ReactFC } from '@formily/reactive-react'
 import { DroppableWidget } from '@mozyun/designable-react'
-import './styles.less'
 
 export const Container: ReactFC = observer((props) => {
   return <DroppableWidget>{props.children}</DroppableWidget>

@@ -16,7 +16,6 @@ import { LoadTemplate } from '../../common/LoadTemplate'
 import { createFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'
-import './styles.less'
 
 type formilyGrid = typeof FormilyGird
 

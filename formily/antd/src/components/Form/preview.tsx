@@ -6,7 +6,6 @@ import { Form as FormilyForm } from '@mozyun/formily-antd'
 import { usePrefix, DnFC } from '@mozyun/designable-react'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'
-import './styles.less'
 
 export const Form: DnFC<React.ComponentProps<typeof FormilyForm>> = observer(
   (props) => {
