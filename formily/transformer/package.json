@@ -25,8 +25,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@formily/core": "^2.2.16",
-    "@formily/json-schema": "^2.2.16",
+    "@formily/core": "^2.3.0",
+    "@formily/json-schema": "^2.3.0",
     "@types/node": "^20.9.0"
   },
   "peerDependencies": {
@@ -34,8 +34,8 @@
     "@formily/json-schema": "^2.2.14"
   },
   "dependencies": {
-    "@mozyun/designable-core": "2.0.10",
-    "@mozyun/designable-shared": "2.0.10",
+    "@mozyun/designable-core": "workspace:*",
+    "@mozyun/designable-shared": "workspace:*",
     "@types/node": "^20.9.0"
   },
   "gitHead": "d255ef66373f4d3bcb1290995c4c2110d32248bf"

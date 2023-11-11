@@ -8,6 +8,7 @@ const logo = {
 }
 
 export const LogoWidget: React.FC = () => {
+  // @ts-expect-error: expected
   const url = logo[useTheme()]
   return (
     <div style={{ display: 'flex', alignItems: 'center', fontSize: 14 }}>

@@ -28,14 +28,14 @@
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.10",
-    "antd-style": "^3.5.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "antd-style": "^3.5.2",
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@mozyun/designable-react": "2.0.10",
-    "@mozyun/designable-shared": "2.0.10",
+    "@mozyun/designable-react": "workspace:*",
+    "@mozyun/designable-shared": "workspace:*",
     "@types/node": "^20.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -26,9 +26,9 @@
     "@formily/reactive": "^2.3.0",
     "@formily/reactive-react": "^2.3.0",
     "@types/node": "^20.9.0",
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.10",
-    "antd-style": "^3.5.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "antd-style": "^3.5.2",
     "react": "^18.2.0"
   },
   "peerDependencies": {
@@ -36,10 +36,10 @@
     "@formily/reactive-react": "^2.2.14"
   },
   "dependencies": {
-    "@mozyun/designable-core": "2.0.10",
-    "@mozyun/designable-shared": "2.0.10",
+    "@mozyun/designable-core": "workspace:*",
+    "@mozyun/designable-shared": "workspace:*",
     "@types/node": "^20.9.0",
-    "antd": "^5.1.2",
+    "antd": "^5.11.1",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"
   },

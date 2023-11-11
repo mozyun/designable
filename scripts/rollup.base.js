@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript2'
+import typescript from '@rollup/plugin-typescript'
 import resolve from '@rollup/plugin-node-resolve'
 import postcss from 'rollup-plugin-postcss'
 import commonjs from '@rollup/plugin-commonjs'
@@ -38,12 +38,8 @@ const presets = () => {
   return [
     typescript({
       tsconfig: './tsconfig.json',
-      tsconfigOverride: {
-        compilerOptions: {
-          module: 'ESNext',
-          declaration: false,
-        },
-      },
+      module: 'ESNext',
+      declaration: false,
     }),
     resolve(),
     postcss({

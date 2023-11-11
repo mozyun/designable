@@ -20,8 +20,5 @@
       "@mozyun/designable-formily-*": ["./formily/*/src"]
     },
     "lib": ["DOm", "DOM.Iterable"]
-  },
-  "ts-node": {
-    "esm": true
   }
 }
