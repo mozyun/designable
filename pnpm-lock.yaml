@@ -1,5 +1,8 @@
 lockfileVersion: '6.0'
 
+overrides:
+  '@formily/react': ^2.3.0
+
 importers:
   .:
     dependencies:
@@ -614,7 +617,7 @@ importers:
         version: link:../../packages/react-settings-form
       '@mozyun/formily-antd':
         specifier: link:/Users/mozhou/WorkSpace/GitHub/antd/packages/components
-        version: 1.1.16(@types/react-dom@18.2.15)(@types/react@18.2.37)(antd@5.11.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(typescript@4.9.5)
+        version: link:../../../antd/packages/components
       '@types/glob':
         specifier: ^7.2.0
         version: 7.2.0
@@ -3396,6 +3399,7 @@ packages:
       '@formily/reactive': 2.3.0
       '@juggle/resize-observer': 3.4.0
       typescript: 4.9.5
+    dev: false
 
   /@formily/grid@2.3.0(typescript@5.2.2):
     resolution:
@@ -4183,6 +4187,7 @@ packages:
       react-sticky-box: 1.0.2(react@18.2.0)
     transitivePeerDependencies:
       - typescript
+    dev: false
 
   /@mozyun/formily-antd@1.1.16(@types/react-dom@18.2.15)(@types/react@18.2.37)(antd@5.11.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(typescript@5.2.2):
     resolution:
@@ -13103,7 +13108,7 @@ packages:
       }
     engines: { node: '>= 10.13.0' }
     dependencies:
-      '@types/node': 18.18.9
+      '@types/node': 20.9.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true

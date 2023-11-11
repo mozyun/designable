@@ -1,6 +1,6 @@
 {
   "name": "@mozyun/designable-formily-transformer",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "license": "MIT",
   "main": "lib",
   "engines": {
