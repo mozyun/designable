@@ -32,7 +32,7 @@
     "@formily/reactive-react": "^2.3.0",
     "@formily/shared": "^2.3.0",
     "@mozyun/designable-react-settings-form": "workspace:*",
-    "@mozyun/formily-antd": "^1.1.16",
+    "@mozyun/formily-antd": "link:/Users/mozhou/WorkSpace/GitHub/antd/packages/components",
     "@types/glob": "^7.2.0",
     "@types/node": "^20.9.0",
     "@types/react": "^18.2.37",

@@ -143,6 +143,7 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.8.1"
+    "@ant-design/icons": "^4.8.1",
+    "@mozyun/formily-antd": "link:/Users/mozhou/WorkSpace/GitHub/antd/packages/components"
   }
 }

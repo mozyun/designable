@@ -1,4 +1,5 @@
 import React from 'react'
+
 export {
   Form,
   FormItem,
@@ -8,6 +9,8 @@ export {
   Editable,
   Input,
   NumberPicker,
+  // NumberMoney,
+  // NumberMetric,
   Switch,
   Password,
   PreviewText,
